@@ -1,7 +1,7 @@
 from input import *
 from output import *
 
-def m(l, f):
+def m(l, f, count):
     this = l[0]
     while len(l) > 0:
         b = False
@@ -10,7 +10,7 @@ def m(l, f):
                 break
             for tag in this.tags:
                 if tag in x.tags:
-                    output_file(f, [x])
+                    output_file(f, [x], count)
                     l.remove(x)
                     this = x
                     b = True
