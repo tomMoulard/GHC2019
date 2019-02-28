@@ -12,8 +12,8 @@ def input_file(name):
         l=f.readline().split()
         new=image()
         if l[0]=="V":
-            image.h=False
-        image.id = i;
-        image.tags = l[2:]
+            new.h=False
+        new.id = i;
+        new.tags = l[2:]
         res+=[new]
     return res
