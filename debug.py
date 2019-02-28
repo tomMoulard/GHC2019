@@ -24,4 +24,5 @@ def f(i):
 def g(i):
     print(f(i))
 
-g(4)
+if __name__ == "__name":
+    g(4)
