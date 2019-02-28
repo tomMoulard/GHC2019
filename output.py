@@ -1,7 +1,3 @@
-from debug import trace
-
-@trace
-def output(res):
-    fil = open("data.txt", "w")
+fil = open("data.txt", "a")
+def output_file(res):
     fil.write(res)
-    fil.close()
