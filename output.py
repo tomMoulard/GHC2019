@@ -1,6 +1,6 @@
 from debug import trace
 @trace
-def output:
+def output(res):
     fil = open("data.txt", "w")
-    fil.write("Bonjour monde")
+    fil.write(res)
     fil.close()
