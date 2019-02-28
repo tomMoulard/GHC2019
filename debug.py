@@ -1,6 +1,6 @@
 global indent, debug
 indent = 0
-debug = False
+debug = True
 
 
 def trace(f):
