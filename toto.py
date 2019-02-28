@@ -72,11 +72,12 @@ def get_merged(l):
 
 l = input_file(argv[1])
 l = get_merged(l)
+l.sort(key = lambda x: x.tags[-1])
 print(len(l))
 
 res = []
 
-scope = 201
+scope = 1000
 
 for i in range(0, len(l), scope):
     print("\r", str(100 * i / len(l))[:2], "%", i,  end='                                 ')
