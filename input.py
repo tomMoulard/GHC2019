@@ -3,6 +3,8 @@ class image:
         self.h = True
         self.id = 0
         self.tags = []
+    def __str__(self):
+        return str(self.id)
 
 def input_file(name):
     res=[]
