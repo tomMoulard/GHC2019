@@ -2,7 +2,6 @@ from input import *
 from output import *
 
 def m(l, f):
-    print(l)
     this = l[0]
     while len(l) > 0:
         b = False
