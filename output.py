@@ -7,3 +7,4 @@ def output_file(name, res):
 def bite(file_name, file2):
     f=open(file_name,"r+")
     m(input_file(file2), f)
+    print(file2)
